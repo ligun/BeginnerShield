@@ -5,14 +5,14 @@ void setup(){
 }
 
 void loop(){
-  for(unsigned char i=0;i<256;i++)
+  for(int i=0;i<256;i++)
   {
     analogWrite(LEDPIN,i);
-    delay(100);
+    delay(10);
   }
-  for(unsigned char i=255;i>=0;i--)
+  for(int i=0;i<256;i++)
   {
-    analogWrite(LEDPIN,i);
-    delay(100);
+    analogWrite(LEDPIN,255-i);
+    delay(10);
   }
 }
