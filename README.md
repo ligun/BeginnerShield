@@ -2,6 +2,12 @@
 
 ---
 
+## サンプル
+BeginnerShieldの学習用サンプルページは下記リンクに飛んでください。
+[サンプルページ](https://github.com/ligun/BeginnerShield/tree/master/sample)
+
+BeginnerShieldの説明は下記説明を読んでください。
+
 ## 概要
 Beginner ShieldはArduino初学者向けのシールド(拡張基板)です。
 フィジカルコンピューティングを始めて学ぶ人達がよく使う機能や部品を一つにまとめて効率よく学習することを目的としています。  
