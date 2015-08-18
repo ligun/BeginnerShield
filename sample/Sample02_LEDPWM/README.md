@@ -21,7 +21,7 @@ ArduinoではPWMを自前で処理しなくても使用できる関数があり�
 analogWrite関数の第一引数にはピン番号、第二引数には明るさを示す値が入ります。明るさの範囲は0~255の間で入力します。
 次のように記述します。
 ```C
-#define LED_PIN 3
+#define LED_PIN 6
 
 void setup(){
    pinMode(LED_PIN, OUTPUT);
